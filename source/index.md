@@ -34,7 +34,7 @@ The course is designed around a series of two-week modules, though the exact tim
 
 The first module has four topics. Each assignment is designed to introduce one or more topics of data analytics and visualization, and to give students practice taking a business problem and re-framing it as an analytics or visualization problem. 
 
-Each topic has a "preparation" reading that covers the theory, math, and statistical background of a given topic, as well as some references and tips for the coding aspects of the topic. This is followed by a "Data Exploration" assignment presented in the form of a simulated case-study. 
+Each topic has a *Preparation* reading that covers the theory, math, and statistical background of a given topic, as well as some references and tips for the coding aspects of the topic. This is followed by a *Data Exploration* assignment presented in the form of a simulated case-study. 
 
 !!!note "Classroom Implementation Tips"
 	The first module is designed as a refresher/fast introduction into data wrangling and visualization using Python. Most of the students taking this course had had exposure to one or more of these topics in previous courses, but that wasn't always the case.

@@ -5,17 +5,17 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot');
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/highlight/styles/monokai-sublime.min.css">
-	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/cse450.css?v1.3">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/cse450.css?v1.3">
     <meta charset="utf-8">
 
 </head>
@@ -47,7 +47,7 @@
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Iris Flower" src="https://lfalin.github.io/cse450/shared/img/iris.png" /></p>
+		<p><img alt="Iris Flower" src="https://lfalin.github.io/cse450-course/shared/img/iris.png" /></p>
 <h2 id="overview">Overview</h2>
 <p>In this data exploration, you will:</p>
 <ul>
@@ -63,22 +63,22 @@
 <p>Your assignment is to build a k-Nearest Neighbors model to classify flowers based on their petal and sepal sizes.</p>
 <h3 id="notes-about-the-data">Notes about the data</h3>
 <p>The dataset contains sepal and petal measurements for several samples of iris flowers. </p>
-<p><img alt="Iris Flower" src="https://lfalin.github.io/cse450/shared/img/iris.png" /></p>
+<p><img alt="Iris Flower" src="https://lfalin.github.io/cse450-course/shared/img/iris.png" /></p>
 <p>Each row in the data is a <em>sample</em>. There are five columns. </p>
 <p>The first four columns contain the feature values for each sample: <code>sepal_length</code>, <code>sepal_width</code>, <code>petal_length</code>, and <code>petal_width</code>.</p>
 <p>The fifth column, <code>species</code>, is our <em>target</em> value. </p>
 <p>Remember, the purpose of supervised learning is to build a model that can predict the target value from the feature values.</p>
-<p><img alt="Iris Dataset" src="https://lfalin.github.io/cse450/shared/img/iris_description.png" /></p>
+<p><img alt="Iris Dataset" src="https://lfalin.github.io/cse450-course/shared/img/iris_description.png" /></p>
 <h3 id="colab-link">Colab Link</h3>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<p><a href="https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Exploration_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="teachers-solution">Teacher's Solution</h2>
-<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04_Solved.ipynb">view the teacher's solution here</a>.</p>
+<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Exploration_04_Solved.ipynb">view the teacher's solution here</a>.</p>
 	</article>
-	<script src="https://lfalin.github.io/cse450/shared/lib/highlight/highlight.pack.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.js"></script>
-    <script src="https://lfalin.github.io/cse450/shared/lib/katex/contrib/auto-render.min.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/smartquotes/smartquotes.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://lfalin.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
     <script>
 
         /* Startup scripts for katex rendering */

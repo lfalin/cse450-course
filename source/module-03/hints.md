@@ -18,7 +18,7 @@ Sometimes you want to do a complex transformation where you create a new feature
 
 One way to accomplish this is with `apply()` plus a function or lambda, as shown in the following colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_functions.ipynb)
 
 
 ## Scaling a Feature
@@ -26,23 +26,23 @@ Sometimes it is necessary to transform a feature to use a normalized scale.
 
 Min-max scaling (aka range scaling) will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_scaling.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_scaling.ipynb)
 
 Standardization, (aka z-score normalization), scales the values so they have a mean of 0 and a standard deviation of 1, as shown in the following colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_normalization.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_normalization.ipynb)
 
 
 ## Dealing with Dates
 Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_dates.ipynb)
 
 
 ## Using XGBoost
 If you've read through the official documentation and tutorials about XGBoost on the [project page](./project.html) and still aren't sure how to use it, this colab notebook might help:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_xgboost.ipynb)
 
 
 

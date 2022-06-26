@@ -2,7 +2,7 @@
 title: Module 02 — Targeted Marketing, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/portugal.jpg)
+![Portugal]({{URLROOT}}/shared/img/portugal.jpg)
 *[Photo by Ricardo Resende on Unsplash](https://unsplash.com/photos/swivynstICo)*
 
 ## Introduction
@@ -58,11 +58,11 @@ These are the individuals your team will be helping during the case study:
 You've been invited to dinner tomorrow night with the President of the bank, VP of Marketing, and the Senior Data Scientist. They're planning to discuss the marketing campaign and would like your input on a few key points.
 
 ## Dataset
-Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./bank-dictionary.txt).
+Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bank.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./bank-dictionary.txt).
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
 [^1]: [Chairman of the Board photo by Portuguese Gravity on Unsplash](https://unsplash.com/photos/oMF2q4tlhDg)
 

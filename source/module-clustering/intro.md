@@ -55,11 +55,11 @@ These are the individuals your team will be helping during the case study.
 You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.
 
 ## Dataset
-Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./hr-dictionary.txt).
+Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/hr.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./hr-dictionary.txt).
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Module_02.ipynb)
 
 [^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
 

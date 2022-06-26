@@ -2,7 +2,7 @@
 title: Module 04 — Hit Songs, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/song.jpg)
+![Song]({{URLROOT}}/shared/img/song.jpg)
 *[Photo by Austin Neill on Unsplash](https://unsplash.com/photos/hgO1wFPXl3I)*
 
 ## Introduction
@@ -43,15 +43,15 @@ You've been invited to a strategy meeting tomorrow. They're planning to discuss 
 Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./spotify-dictionary.txt).
 
 ### Datasets
-* [Spotify Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
-* [Spotify Data (by Artist)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv)
-* [Spotify Data (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
-* [Spotify Data (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
-* [Spotify Data (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
+* [Spotify Data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data.csv)
+* [Spotify Data (by Artist)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_artist.csv)
+* [Spotify Data (by Artist with genres)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
+* [Spotify Data (by Genre)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_genres.csv)
+* [Spotify Data (by Year)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_year.csv)
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Module_04.ipynb)
 
 [^1]: [Lead Singer photo by Brian Lundquist on Unsplash](https://unsplash.com/photos/3Uf-aRahKcc)
 

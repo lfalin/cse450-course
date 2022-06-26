@@ -18,4 +18,4 @@ If you're really struggling with how to build a kNN classifier, you should try r
 
 If that still doesn't help, this notebook can give you some more guidance:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module04_hint01.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/module04_hint01.ipynb)

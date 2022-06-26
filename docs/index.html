@@ -5,17 +5,17 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot');
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/highlight/styles/monokai-sublime.min.css">
-	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/cse450.css?v1.3">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/cse450.css?v1.3">
     <meta charset="utf-8">
 
 </head>
@@ -24,8 +24,28 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#cse-450-course-index">CSE 450 - Course Index</a></li>
-<li><a href="#module-links">Module Links</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#module-one-a-crash-course-in-data-analytics-and-visualization">Module One: A Crash Course in Data Analytics and Visualization</a><ul>
+<li><a href="#1-netflix-movies">1. Netflix Movies</a></li>
+<li><a href="#2-cereal-marketing">2. Cereal Marketing</a></li>
+<li><a href="#3-titanic-survival-patterns">3. Titanic Survival Patterns</a></li>
+<li><a href="#4-flower-classification">4. Flower Classification</a></li>
+<li><a href="#self-assessment">Self-Assessment</a></li>
+</ul>
+</li>
+<li><a href="#modules-two-six-an-applied-survey-of-machine-learning-topics">Modules Two - Six: An Applied Survey of Machine Learning Topics</a><ul>
+<li><a href="#module-02-banking-and-market-segmentation">Module 02: Banking and Market Segmentation</a></li>
+<li><a href="#module-03-house-price-estimation">Module 03: House Price Estimation</a></li>
+<li><a href="#module-04-bike-rentals-and-resource-planning">Module 04: Bike Rentals and Resource Planning</a></li>
+<li><a href="#module-05-self-driving-cars-and-computer-vision">Module 05: Self Driving Cars and Computer Vision</a></li>
+<li><a href="#module-06-ai-content-generation">Module 06: AI Content Generation</a></li>
+</ul>
+</li>
+<li><a href="#bonus-modules">"Bonus" modules</a><ul>
+<li><a href="#knn-module-predicting-hits-from-spotify-data">KNN Module: Predicting Hits from Spotify Data</a></li>
+<li><a href="#clustering-module-dei-in-the-workplace">Clustering Module: DE&amp;I in the Workplace</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -41,32 +61,199 @@
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="cse-450-course-index">CSE 450 - Course Index</h2>
-<p>This is a handy index page for the course content and readings in CSE 450. This content is subject to change without notice and is for informational purposes only. </p>
-<p>If you're a student, the content, assignments, and deadlines you'll be responsible for are those linked to from I-Learn.</p>
+		<h2 id="introduction">Introduction</h2>
+<p><img alt="Credit Card Transaction" src="https://lfalin.github.io/cse450-course/shared/img/cc.jpg" />
+<em><a href="https://unsplash.com/photos/q3o_8MteFM0">Photo by Blake Wisz on Unsplash</a></em></p>
+<p>This material was originally part of a university course I created on data science and machine learning. I've reorganized the pages a bit and indexed them here to make them easier for the general public to make use of the information. </p>
+<p>If you're a student in CSE 450, this probably isn't the page you're looking for. I would suggest the <a href="https://byui-cse.github.io/cse450-course/">official course index found here</a>.</p>
+<p>Some of the readings make reference to the course textbook <a href="https://amzn.to/39XgVBp">Fundamentals of Machine Learning for Predictive Data Analytics (1st edition)</a>, which I highly recommend. </p>
+<p>Though you can almost certainly find alternative sources for the topics covered in the text by googling, the book does a great job of providing a high level overview of the topic, as well as covering the math and statistics needed to adequately understand how a particular topic should be used (and when it shouldn't be).</p>
+<p>The course is designed around a series of two-week modules, though the exact timing doesn't matter so much outside of a traditional classroom setting.</p>
+<div class="admonition def">
+<p class="admonition-title">Resources and Tips</p>
+<p>Here are some tips and reference pages we provided to students to help them succeed in the course:</p>
 <ul>
-<li><a href="./course/syllabus.html">Course Syllabus</a></li>
-<li><a href="./course/reading-technical-documentation.html">How to Read Technical Documentation</a></li>
-<li><a href="./course/programming-resources.html">Programming Resources</a></li>
-<li><a href="./course/projects.html">Team Project Expectations</a></li>
-<li><a href="./course/data-sources.html">Data Reference</a></li>
+<li>
+<p><a href="./course/reading-technical-documentation.html">How to Read Technical Documentation</a></p>
+</li>
+<li>
+<p><a href="./course/programming-resources.html">Programming Resources and Tutorials</a></p>
+</li>
+<li>
+<p><a href="./course/projects.html">Team Project Expectations and How to Give Feedback to Teammates</a></p>
+</li>
+<li>
+<p><a href="./course/data-sources.html">Index of datasets used in the course</a></p>
+</li>
 </ul>
-<h2 id="module-links">Module Links</h2>
-<p>For your convenience, links to each module overview is listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:</p>
+</div>
+<h2 id="module-one-a-crash-course-in-data-analytics-and-visualization">Module One: A Crash Course in Data Analytics and Visualization</h2>
+<p>The first module has four topics. Each assignment is designed to introduce one or more topics of data analytics and visualization, and to give students practice taking a business problem and re-framing it as an analytics or visualization problem. </p>
+<p>Each topic has a "preparation" reading that covers the theory, math, and statistical background of a given topic, as well as some references and tips for the coding aspects of the topic. This is followed by a "Data Exploration" assignment presented in the form of a simulated case-study. </p>
+<div class="admonition note">
+<p class="admonition-title">Classroom Implementation Tips</p>
+<p>The first module is designed as a refresher/fast introduction into data wrangling and visualization using Python. Most of the students taking this course had had exposure to one or more of these topics in previous courses, but that wasn't always the case.</p>
+<p>At the end of the first module, a self-evaluation assignment allows students to determine how likely they are to be able to move forward with the course successfully.</p>
+<p>The timing of this assessment falls prior to the drop/add deadline, which gave me a chance to sit down with students and recommend alternative preparatory courses as needed.</p>
+</div>
+<h3 id="1-netflix-movies">1. Netflix Movies</h3>
+<p><img alt="Netflix" src="https://lfalin.github.io/cse450-course/shared/img/netflix.jpg" />
+<em><a href="https://unsplash.com/photos/yubCnXAA3H8">Photo by Mollie Sivaram on Unsplash</a></em></p>
+<div class="admonition note">
+<p class="admonition-title">Topics Covered</p>
 <ul>
-<li><a href="./module-01/">Module 01</a></li>
-<li><a href="./module-02/">Module 02</a></li>
-<li><a href="./module-03/">Module 03</a></li>
-<li><a href="./module-04/">Module 04</a></li>
-<li><a href="./module-05/">Module 05</a></li>
-<li><a href="./module-06/">Module 06</a></li>
-<li><a href="./module-07/">Module 07</a></li>
+<li>Learn to understand the difference between types of machine learning problems (supervised vs. unsupervised, classification vs. regression, etc...).</li>
+<li>Learn the "parts" and vocabulary of machine learning problems.</li>
+<li>Learn how to use Google Colab.</li>
+<li>Learn how to load, explore, and filter data with the Pandas library.</li>
+<li>Look at different options for data visualization.</li>
+</ul>
+</div>
+<ul>
+<li><a href="./module-01/preparation-01.html">Preparation Reading 01</a></li>
+<li><a href="./module-01/exploration-01.html">Data Exploration 01</a></li>
+</ul>
+<h3 id="2-cereal-marketing">2. Cereal Marketing</h3>
+<p><img alt="Cereal" src="https://lfalin.github.io/cse450-course/shared/img/cereal.jpg" />
+<em><a href="https://unsplash.com/photos/QdwrSyJV3_4">Photo by Haley Owens on Unsplash</a></em></p>
+<div class="admonition note">
+<p class="admonition-title">Topics Covered</p>
+<ul>
+<li>Review of basic statistics</li>
+<li>Data exploration and visualization.</li>
+<li>Calculating summary statistics.</li>
+<li>Feature engineering.</li>
+</ul>
+</div>
+<ul>
+<li><a href="./module-01/preparation-02.html">Preparation Reading 02</a></li>
+<li><a href="./module-01/exploration-02.html">Data Exploration 02</a></li>
+</ul>
+<h3 id="3-titanic-survival-patterns">3. Titanic Survival Patterns</h3>
+<p><img alt="Iceberg" src="https://lfalin.github.io/cse450-course/shared/img/iceberg.jpg" />
+<em><a href="https://unsplash.com/photos/4ReskwNsh68">Photo by Derek Oyen on Unsplash</a></em></p>
+<div class="admonition note">
+<p class="admonition-title">Topics Covered</p>
+<ul>
+<li>Analyzing feature relationships using statistics and visualizations.</li>
+<li>Feature engineering </li>
+<li>Feature encoding</li>
+</ul>
+</div>
+<ul>
+<li><a href="./module-01/preparation-03.html">Preparation Reading 03</a></li>
+<li><a href="./module-01/exploration-03.html">Data Exploration 03</a></li>
+</ul>
+<h3 id="4-flower-classification">4. Flower Classification</h3>
+<p><img alt="Iris Flower" src="https://lfalin.github.io/cse450-course/shared/img/iris.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Topics Covered</p>
+<ul>
+<li>The k-Nearest Neighbors algorithm.</li>
+<li>How to evaluate model performance. </li>
+<li>Become familiar with the Scikit Learn machine learning library</li>
+<li>Use the library to build a machine learning model.</li>
+<li>Use that model to make predictions.</li>
+</ul>
+</div>
+<ul>
+<li><a href="./module-01/preparation-04.html">Preparation Reading 04</a></li>
+<li><a href="./module-01/exploration-04.html">Data Exploration 04</a></li>
+</ul>
+<h3 id="self-assessment">Self-Assessment</h3>
+<p>This assignment is designed to assess how well students understood the topics from the previous five assignments by testing their ability to apply the concepts to similar, but different situations.</p>
+<ul>
+<li><a href="./module-01/assessment.html">Self Assessment Assignment</a></li>
+</ul>
+<h2 id="modules-two-six-an-applied-survey-of-machine-learning-topics">Modules Two - Six: An Applied Survey of Machine Learning Topics</h2>
+<p>In each of the remaining modules, students learn about the theory and application of a machine learning algorithm through a <em>preparation reading</em> assignment. </p>
+<p>Each reading also introduces auxiliary topics, such as feature engineering, model evaluation techniques, and tuning of hyperparameters.</p>
+<p>For each topic, a business problem is then introduced through a <em>Case Study Intro</em>, where students learn about the business problem, and the primary concerns of the key stakeholders.</p>
+<p>The students then engage in an <em>In-class Case Study Discussion</em> where stakeholders ask questions of the "data science team". Students discuss the question as a team and then share their answers and the reasoning behind them. Some questions have a particularly correct answer, while others have multiple answers that each have a reasonable amount of merit. </p>
+<p>Students then start the <em>Case Study Project</em>, which outlines key deliverables the stakeholders are interested in.</p>
+<div class="admonition note">
+<p class="admonition-title">Classroom Implementation Tips</p>
+<p>If you're adopting this course for use in a classroom, here are some implementation notes that will make this more successful:</p>
+<ul>
+<li>
+<p>The course was designed for teams of around 3-6 people to work together, with a rotating "project manager role".</p>
+</li>
+<li>
+<p>A strong emphasis is placed on reporting back to the stakeholders by translating machine learning results back into the context of actionable business insights. </p>
+</li>
+<li>
+<p>Module grades are comprised almost entirely from the self-evaluation and peer-evaluations that form part of the module postmortem.</p>
+</li>
+<li>
+<p>Be sure to have students read the <a href="http://cse450.local/course/projects.html">Team Project Expectations Guide</a> to help them achieve this.</p>
+</li>
+<li>
+<p>I always invited students to take turn role-playing stakeholders for the in-class discussion assignments. There are some recurring characters, and many students really enjoyed this aspect of making it feel more realistic.</p>
+</li>
+<li>
+<p>Also related to adding to the realism, whenever students had a question about a case study, I required them to send a message to the stakeholder they thought would best be able to answer the question (via email or Slack). I then answered the question from the point of view of the stakeholder.</p>
+</li>
+</ul>
+</div>
+<h3 id="module-02-banking-and-market-segmentation">Module 02: Banking and Market Segmentation</h3>
+<p><img alt="Portugal" src="https://lfalin.github.io/cse450-course/shared/img/portugal.jpg" />
+<em><a href="https://unsplash.com/photos/swivynstICo">Photo by Ricardo Resende on Unsplash</a></em></p>
+<p>This module covers decision trees, and more model evaluation methods (ROC and AUC) within the context of a Portuguese bank that wants to engage in some targeted marketing efforts.</p>
+<ul>
+<li><a href="./module-02/">Module 02 Start Page</a></li>
+</ul>
+<h3 id="module-03-house-price-estimation">Module 03: House Price Estimation</h3>
+<p><img alt="Meeting" src="https://lfalin.github.io/cse450-course/shared/img/meeting.jpg" />
+<em><a href="https://unsplash.com/photos/gMsnXqILjp4">Photo by Campaign Creators on Unsplash</a></em></p>
+<p>This module covers model ensembles, gradient boosted trees, and using the XGBoost library to solve regression tasks within the context of a real estate firm that wants to use machine learning to improve the accuracy of their housing valuations.</p>
+<ul>
+<li><a href="./module-03/">Module 03 Start Page</a></li>
+</ul>
+<h3 id="module-04-bike-rentals-and-resource-planning">Module 04: Bike Rentals and Resource Planning</h3>
+<p><img alt="Bikes" src="https://lfalin.github.io/cse450-course/shared/img/bikes.jpg" />
+<em><a href="https://unsplash.com/photos/QjRk3rj2O1c">Photo by Markus Winkler on Unsplash</a></em></p>
+<p>This module introduces basic neural networks within the context of a bike rental startup that wants to find a better way to handle staff and inventory planning.</p>
+<ul>
+<li><a href="./module-04/">Module 04 Start Page</a></li>
+</ul>
+<h3 id="module-05-self-driving-cars-and-computer-vision">Module 05: Self Driving Cars and Computer Vision</h3>
+<p><img alt="Car" src="https://lfalin.github.io/cse450-course/shared/img/car.jpg" />
+<em><a href="https://unsplash.com/photos/3ZUsNJhi_Ik">Photo by Campbell Boulanger on Unsplash</a></em></p>
+<p>This module introduces convolutional neural networks and data augmentation within the context of an automotive company doing research into self-driving cars.</p>
+<ul>
+<li><a href="./module-05/">Module 05 Start Page</a></li>
+</ul>
+<h3 id="module-06-ai-content-generation">Module 06: AI Content Generation</h3>
+<p><img alt="Printing Machine" src="https://lfalin.github.io/cse450-course/shared/img/printing.jpg" />
+<em><a href="https://unsplash.com/photos/Tzm3Oyu_6sk">Photo by Bank Phrom on Unsplash</a></em></p>
+<p>This module introduces recurrent neural networks within the context of a publishing company seeking to expand its catalogue using AI-generated content.</p>
+<ul>
+<li><a href="./module-06/">Module 06 Start Page</a></li>
+</ul>
+<h2 id="bonus-modules">"Bonus" modules</h2>
+<p>These modules were cut from the course either due to fit in more relevant algorithms, or due to other issues with the data.</p>
+<h3 id="knn-module-predicting-hits-from-spotify-data">KNN Module: Predicting Hits from Spotify Data</h3>
+<p><img alt="Song" src="https://lfalin.github.io/cse450-course/shared/img/song.jpg" />
+<em><a href="https://unsplash.com/photos/hgO1wFPXl3I">Photo by Austin Neill on Unsplash</a></em></p>
+<p>Before we had kNN as part of the flower classification assignment in week 01, we had an entire module on the topic, framed within the context of a record label trying to identify trends in top songs based on metrics in Spotify data.</p>
+<p>The module covered kNN in a bit more detail than the module one assignment does, but after a couple of iterations of the course, we found this problem to be a bit ill-defined, and students were having trouble producing actionable insights from the data, so I ultimately cut the module and distilled the key points into module one.</p>
+<ul>
+<li><a href="./module-knn/">kNN Module Start Page</a></li>
+</ul>
+<h3 id="clustering-module-dei-in-the-workplace">Clustering Module: DE&amp;I in the Workplace</h3>
+<p><img alt="Meeting" src="https://lfalin.github.io/cse450-course/shared/img/meeting.jpg" />
+<em><a href="https://unsplash.com/photos/gMsnXqILjp4">Photo by Campaign Creators on Unsplash</a></em></p>
+<p>I loved the premise of this topic - evaluating hiring practices and salary trends to be able to quantitatively answer questions about workplace diversity and pay gap issues. It also was the only module in the course that covered unsupervised learning (via k-Means Clustering).</p>
+<p>Unfortunately, the dataset had a lot of underlying issues due to how it was generated, which led to students coming to some pretty obvious conclusions too quickly.</p>
+<p>At the same time, we really wanted to make room for RNNs, which we felt was more important for our students to understand than unsupervised learning. So this module was ultimately cut from the course.</p>
+<ul>
+<li><a href="./module-clustering/">Clustering Module Start Page</a></li>
 </ul>
 	</article>
-	<script src="https://lfalin.github.io/cse450/shared/lib/highlight/highlight.pack.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.js"></script>
-    <script src="https://lfalin.github.io/cse450/shared/lib/katex/contrib/auto-render.min.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/smartquotes/smartquotes.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://lfalin.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
     <script>
 
         /* Startup scripts for katex rendering */

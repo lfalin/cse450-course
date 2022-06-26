@@ -3,7 +3,7 @@ title: Module 02 — Decision Trees
 body-class: index-page
 ---
 
-![Clustering]({{URLROOT}}/shared/img/tree.jpg)
+![Trees]({{URLROOT}}/shared/img/tree.jpg)
 *[Photo by veeterzy on Unsplash](https://unsplash.com/photos/sMQiL_2v4vs)*
 
 ## Overview

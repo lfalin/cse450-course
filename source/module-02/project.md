@@ -66,7 +66,7 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 </div>
 
 !!!note "Data Dictionary"
-	Our database analyst put together this [data dictionary](./bank-dictionary.txt) to help explain the values and sources of different columns in the [bank dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv), so be sure to review that.
+	Our database analyst put together this [data dictionary](./bank-dictionary.txt) to help explain the values and sources of different columns in the [bank dataset](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bank.csv), so be sure to review that.
 
 !!!note "Target Variable"
 	One oddity here is that our target feature is simply labled `y`, but it's a boolean indicating "y" or "n", did the client subscribe to a term deposit.

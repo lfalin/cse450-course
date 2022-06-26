@@ -2,7 +2,7 @@
 title: Module 04 — Bike Rentals, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/bikes.jpg)
+![Bikes]({{URLROOT}}/shared/img/bikes.jpg)
 *[Photo by Markus Winkler on Unsplash](https://unsplash.com/photos/QjRk3rj2O1c)*
 
 ## Introduction
@@ -40,7 +40,7 @@ These are the individuals your team will be helping during the case study:
 You've been invited to a strategy meeting tomorrow. 
 
 #### Data
-* [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Bike Data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bikes.csv)
 * [Data Dictionary](./bikes-dictionary.txt)
 
 #### Reading
@@ -48,7 +48,7 @@ You've been invited to a strategy meeting tomorrow.
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
 
 [^1]: For a fascinating look at the bike rental industry in China, see [this article in Foreign Policy](https://foreignpolicy.com/2018/12/31/a-billion-bicyclists-can-be-wrong-china-business-bikeshare/) and [this article in The Atlantic](https://www.theatlantic.com/photo/2018/03/bike-share-oversupply-in-china-huge-piles-of-abandoned-and-broken-bicycles/556268/)
 

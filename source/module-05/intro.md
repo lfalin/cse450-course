@@ -2,7 +2,7 @@
 title: Module 05 — Self Driving Cars, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/car.jpg)
+![Car]({{URLROOT}}/shared/img/car.jpg)
 *[Photo by Campbell Boulanger on Unsplash](https://unsplash.com/photos/3ZUsNJhi_Ik)*
 
 ## Introduction
@@ -40,12 +40,12 @@ These are the individuals your team will be helping during the case study:
 You've been invited to a strategy meeting tomorrow. 
 
 #### Data
-* [Roadsigns Training Data Part 1](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training1.zip)
-* [Roadsigns Training Data Part 2](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training2.zip)
-* [Roadsigns Test data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/test.zip)
+* [Roadsigns Training Data Part 1](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/roadsigns/training1.zip)
+* [Roadsigns Training Data Part 2](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/roadsigns/training2.zip)
+* [Roadsigns Test data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/roadsigns/test.zip)
 * [Data Dictionary](./signs-dictionary.txt)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_signs.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_signs.ipynb)
 
 [^1]: [CEO photo by Amy Hirschi on Unsplash](https://unsplash.com/photos/b3AYk8HKCl0)
 

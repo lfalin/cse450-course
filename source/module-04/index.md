@@ -23,9 +23,9 @@ For your convenience, here are links to the module 04 readings and assignments:
 * [Case Study Project](./project.html)
 
 #### Data
-* [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Bike Data](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bikes.csv)
 * [Data Dictionary](./bikes-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
+* [Google Colab Notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
 
 #### Templates
 

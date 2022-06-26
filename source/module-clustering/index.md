@@ -24,9 +24,9 @@ For your convenience, here are links to the module 02 readings and assignments:
 
 #### Data
 
-* [HR Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv)
+* [HR Dataset](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/hr.csv)
 * [HR Data Dictionary](./hr-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb)
+* [Google Colab Notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Module_02.ipynb)
 
 #### Templates
 

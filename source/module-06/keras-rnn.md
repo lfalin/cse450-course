@@ -7,7 +7,7 @@ body-class: index-page
 
 We'll be using Keras for creating recurrent neural networks. Much of what you learned in Module's 04 and 05 will be applicable to this module. 
 
-Before class on Monday, read [through the Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb) that contains the starter code for this module and make sure you have a pretty decent understanding of all of the steps involved. 
+Before class on Monday, read [through the Colab notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_publishing.ipynb) that contains the starter code for this module and make sure you have a pretty decent understanding of all of the steps involved. 
 
 You don't have to fully understand every line of code, but you should read the comments and most of the linked articles carefully enough to be able to discuss it with your team. 
 

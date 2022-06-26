@@ -13,7 +13,7 @@ A dataset listing TV Shows and Movies available on Netflix, along with some meta
 
 * Original Source: [Kaggle](https://www.kaggle.com/shivamb/netflix-shows)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/netflix_titles.csv)
 
 ### Cereal Nutrition
 
@@ -21,7 +21,7 @@ A dataset of nutritional information for major US cereal brands.
 
 * Original Source: [Kaggle](https://www.kaggle.com/crawford/80-cereals)
 * License: [Creative Commons BY-SA 3.0 (Attribution-ShareAlike)](https://creativecommons.org/licenses/by-sa/3.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/cereal.csv)
 
 ### Titanic Passenger List
 
@@ -29,7 +29,7 @@ Information about Titanic Passengers
 
 * Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/titanic.csv)
 
 ### US Honey Production
 
@@ -37,7 +37,7 @@ This dataset is inspired by Honey Production in the USA, extended to the period 
 
 * Original Source: [Kaggle](https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/honey.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/honey.csv)
 
 ### Congressional Voting Record
 
@@ -45,7 +45,7 @@ Voting information for the 1984 US Congress
 
 * Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records)
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/house-votes-84.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/house-votes-84.csv)
 
 ### HR Data
 
@@ -54,7 +54,7 @@ Dr. Carla Patalano, “Human Resources Data Set.” Kaggle, doi: 10.34740/KAGGLE
 
 * Original Source: [Kaggle](https://www.kaggle.com/rhuebner/human-resources-data-set)
 * License: [Creative Commons By-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/hr.csv)
 
 ### Banking Data
 
@@ -62,7 +62,7 @@ Dataset based on [Moro S, Cortez P, Rita P. A data-driven approach to predict th
 
 * Original Source: [Kaggle](https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset)
 * License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bank.csv)
 
 ### Spotify Data
 
@@ -70,11 +70,11 @@ Spotify song information.
 
 * Original Source: [Kaggle](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)
 * License: [Community Data License Agreement - Sharing, 1.0](https://cdla.io/sharing-1-0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
-* [Direct Download (by Artist)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv)
-* [Direct Download (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
-* [Direct Download (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
-* [Direct Download (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data.csv)
+* [Direct Download (by Artist)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_artist.csv)
+* [Direct Download (by Artist with genres)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
+* [Direct Download (by Genre)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_genres.csv)
+* [Direct Download (by Year)](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/spotify/data_by_year.csv)
 
 ### Iris Data
 
@@ -82,7 +82,7 @@ Iris Flower Dataset
 
 * Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/iris.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/iris.csv)
 
 ### Housing Data
 
@@ -90,7 +90,7 @@ House Sales in King County, USA
 
 * Original Source: [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/housing.csv)
 
 ### Auto MPG Data
 
@@ -98,7 +98,7 @@ Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning. In Proceed
 
 * Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/mpg.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/mpg.csv)
 
 ### Biking Data
 
@@ -115,7 +115,7 @@ Holiday Schedule: http://dchr.dc.gov/page/holiday-schedule
 
 * Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bikes.csv)
 
 ### Jane Austen Texts
 
@@ -123,7 +123,7 @@ Project Gutenberg https://www.gutenberg.org
 
 * Original Source [Project Gutenberg](https://www.gutenberg.org/ebooks/author/68)
 * License: [Public Domain](https://www.gutenberg.org/policy/permission.html)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/austen/)
+* [Direct Download](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/austen/)
 
 ### German Traffic Signs
 

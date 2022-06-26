@@ -2,7 +2,7 @@
 title: Exploration 01: Netflix Movies
 ---
 
-![Cereal]({{URLROOT}}/shared/img/netflix.jpg)
+![Netflix]({{URLROOT}}/shared/img/netflix.jpg)
 *[Photo by Mollie Sivaram on Unsplash](https://unsplash.com/photos/yubCnXAA3H8)*
 
 ## Overview
@@ -55,10 +55,10 @@ In this data exploration, you'll use the pandas library to answer some questions
 
 Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Exploration_01.ipynb)
 
 ## Teacher's Solution
 
-Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb).
+Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb).
 
 

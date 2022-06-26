@@ -24,9 +24,9 @@ For your convenience, here are links to the module 03 readings and assignments:
 
 #### Data
 
-* [Bank Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
+* [Bank Dataset](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bank.csv)
 * [Bank Data Dictionary](./bank-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
+* [Google Colab Notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
 #### Templates
 

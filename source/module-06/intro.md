@@ -39,9 +39,9 @@ These are the individuals your team will be helping during the case study:
 You've been invited to a strategy meeting tomorrow. 
 
 #### Data
-* [Jane Austen Text](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/austen/austen.txt)
+* [Jane Austen Text](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/austen/austen.txt)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
 
 [^1]: [COO photo by Jonas Kakaroto on Unsplash](https://unsplash.com/photos/mjRwhvqEC0U)
 

@@ -43,7 +43,7 @@ After a few more meetings with the executive team, the head of the data science 
 ## Tips from Johnny
 
 !!!note "Data Dictionary"
-	Our database analyst put together this [data dictionary](./hr-dictionary.txt) to help explain the values and sources of different columns in the [hr dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv), so be sure to review that.
+	Our database analyst put together this [data dictionary](./hr-dictionary.txt) to help explain the values and sources of different columns in the [hr dataset](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/hr.csv), so be sure to review that.
 
 !!!note "Salary Scale"
 	Remember that the `PayRate` column is using two different scales. Hourly employees (production technicians) have their hourly rates listed. Salaried employees (everyone else) have their annual salaries listed. 

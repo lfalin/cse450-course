@@ -5,17 +5,17 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot');
-            src: url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://lfalin.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.css">
-    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/lib/highlight/styles/monokai-sublime.min.css">
-	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450/shared/cse450.css?v1.3">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://lfalin.github.io/cse450-course/shared/cse450.css?v1.3">
     <meta charset="utf-8">
 
 </head>
@@ -41,26 +41,26 @@
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Meeting" src="https://lfalin.github.io/cse450/shared/img/bikes.jpg" />
+		<p><img alt="Bikes" src="https://lfalin.github.io/cse450-course/shared/img/bikes.jpg" />
 <em><a href="https://unsplash.com/photos/QjRk3rj2O1c">Photo by Markus Winkler on Unsplash</a></em></p>
 <h2 id="introduction">Introduction</h2>
 <p>WelcomeBike Bike Rentals is a Beijing-based bike rental company that has recently expanded to include a handful of US locations. You've been asked to build a neural network that will predict the number of bike rentals for a given day for their Washington DC branch. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h2 id="stakeholders">Stakeholders</h2>
 <p>These are the individuals your team will be helping during the case study:</p>
 <div class="dialogue">
-    <img src="https://lfalin.github.io/cse450/shared/img/zhao.jpg">
+    <img src="https://lfalin.github.io/cse450-course/shared/img/zhao.jpg">
     <h5>Zhao, CEO of WelcomeBike</h5>
     <blockquote><p>Our new DC branch is taking off. I'm excited to see how machine learning can help us to avoid the mistakes of our competitors and prove to our investors that we have a winning business model.</p></blockquote>
 </div>
 
 <div class="dialogue">
-    <img src="https://lfalin.github.io/cse450/shared/img/william.jpg">
+    <img src="https://lfalin.github.io/cse450-course/shared/img/william.jpg">
     <h5>William, Investment Banker</h5>
     <blockquote><p>Oh...it's <em>you</em> again.</p><p>Nearly every Chinese bike rental business anyone has invested in has gone bankrupt.</p><p>Mr. Zhao seems to think that AI can make all the difference, and our bank's investment board is curious to find out if he's right.</p><p>I'm here by their request to witness his failure—I mean, to see how it goes.</p></blockquote>
 </div>
 
 <div class="dialogue">
-    <img src="https://lfalin.github.io/cse450/shared/img/johnny.jpg">
+    <img src="https://lfalin.github.io/cse450-course/shared/img/johnny.jpg">
     <h5>Johnny, Data Science Intern</h5>
     <blockquote><p>Hey, small world!</p><p>I'm visiting my grandma Peggy in Langley, Virginia and thought I'd stop by the capital and see how you're doing.</p>
     </blockquote>
@@ -77,7 +77,7 @@
 <p>You've been invited to a strategy meeting tomorrow. </p>
 <h4 id="data">Data</h4>
 <ul>
-<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv">Bike Data</a></li>
+<li><a href="https://raw.githubusercontent.com/lfalin/cse450-course/master/data/bikes.csv">Bike Data</a></li>
 <li><a href="./bikes-dictionary.txt">Data Dictionary</a></li>
 </ul>
 <h4 id="reading">Reading</h4>
@@ -85,7 +85,7 @@
 <li>Don't forget to go back and review the <a href="./reading.html#practical">"Practical" section of the reading assignment</a> to understand how to build neural networks.</li>
 </ul>
 <p>You can use the following Google Colab notebook to assist you:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bikes.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<p><a href="https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_bikes.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <div class="footnote">
 <hr />
 <ol>
@@ -104,10 +104,10 @@
 </ol>
 </div>
 	</article>
-	<script src="https://lfalin.github.io/cse450/shared/lib/highlight/highlight.pack.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/katex/katex.min.js"></script>
-    <script src="https://lfalin.github.io/cse450/shared/lib/katex/contrib/auto-render.min.js"></script>
-	<script src="https://lfalin.github.io/cse450/shared/lib/smartquotes/smartquotes.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://lfalin.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://lfalin.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
     <script>
 
         /* Startup scripts for katex rendering */

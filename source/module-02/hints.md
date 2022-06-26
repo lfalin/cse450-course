@@ -18,7 +18,7 @@ Sometimes you want to do a complex transformation where you create a new feature
 
 One way to accomplish this is with `apply()` plus a function or lambda, as shown in the following colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_functions.ipynb)
 
 
 ## MinMax Scaling a Feature
@@ -26,13 +26,13 @@ If we need to do some kind of distance-based algorithm with these features, it w
 
 Min-max scaling will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_scaling.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_scaling.ipynb)
 
 
 ## Dealing with Dates
 Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_dates.ipynb)
 
 
 ## Use a decision tree
@@ -41,7 +41,7 @@ If you're really struggling with how to make a decision tree, you should try rea
 
 If that still doesn't help, this notebook can give you some more guidance:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb)
 
 ## Imbalanced datasets
 
@@ -60,4 +60,4 @@ There are [several ways to address this problem](https://stats.stackexchange.com
 
 This Colab notebook shows an example:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_imbalanced.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/hint_imbalanced.ipynb)

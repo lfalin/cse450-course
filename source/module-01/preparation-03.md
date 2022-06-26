@@ -4,7 +4,7 @@ title: Preparation Reading 03: Visualizing Feature Relationships
 
 ## Overview
 
-In this reading we'll review some of the most common ways to visualize relationships between features in dataset.
+In this reading we'll review some of the most common ways to visualize relationships between features in a dataset.
 
 !!!time "Estimated Reading Time"
 	Plan on around 30 to 60 minutes for this preparation reading, which consists of textbook reading.

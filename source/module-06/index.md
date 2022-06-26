@@ -23,8 +23,8 @@ For your convenience, here are links to the module 06 readings and assignments:
 * [Case Study Project](./project.html)
 
 #### Data
-* [Jane Austen Text](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/austen/austen.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
+* [Jane Austen Text](https://raw.githubusercontent.com/lfalin/cse450-course/master/data/austen/austen.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
 
 #### Templates
 

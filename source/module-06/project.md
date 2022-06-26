@@ -40,7 +40,7 @@ After a few more meetings, your team has been assigned to address the following 
 	For more information, [see this article on the change](https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/).
 
 !!!note "Starter Code"
-	This [Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb) contains the starter code left by the previous team. 
+	This [Colab notebook](https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_publishing.ipynb) contains the starter code left by the previous team. 
 
 	There may be better approaches than what that notebook is doing, but it will at least get you started.
 	
@@ -50,7 +50,7 @@ After a few more meetings, your team has been assigned to address the following 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the Data Science Intern, catches you after work:</h5>
-	<blockquote><p>Hey, I know you're probably busy, so I put a bunch of comments and explanations in <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb">the code left behind by the previous team</a>, so make sure you read through those. Also, make sure you review <a href="./keras-rnn.html">the RNN tutorials from the reading assignment</a>.</p></blockquote>
+	<blockquote><p>Hey, I know you're probably busy, so I put a bunch of comments and explanations in <a href="https://colab.research.google.com/github/lfalin/cse450-course/blob/master/notebooks/starter_publishing.ipynb">the code left behind by the previous team</a>, so make sure you read through those. Also, make sure you review <a href="./keras-rnn.html">the RNN tutorials from the reading assignment</a>.</p></blockquote>
 </div>
 
 
